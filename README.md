@@ -13,5 +13,6 @@ Establishes communcation between the PC and an ECG developement board from Corsc
   - Protocol version
   - SCM version
 - Start and stop transmitting ECG data
+- Displaying detected R waves
 - Error Handling
 - GUI
