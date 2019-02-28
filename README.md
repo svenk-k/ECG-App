@@ -12,8 +12,15 @@ Establishes communcation between the PC and an ECG developement board from Corsc
   - Serial number
   - Protocol version
   - SCM version
+- Set options for R wave and pacer detection, buffersize, sampling frequency and more 
 - Start and stop transmitting ECG data
-- Displaying detected R waves
+- Information displayed: 
+  - detected R waves (on/off)
+  - detected pacers (on/off)
+  - heart rate
+  - received, broken, lost packages
+  - RR interval
+  - runtime
 - Error Handling
 - GUI
 - Moving average filter integrated (on/off , window length = 30 at 1kHz and 15 at 500 Hz) (on/off)
