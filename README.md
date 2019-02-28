@@ -16,3 +16,5 @@ Establishes communcation between the PC and an ECG developement board from Corsc
 - Displaying detected R waves
 - Error Handling
 - GUI
+- Moving average filter integrated (on/off , window length = 30 at 1kHz and 15 at 500 Hz) (on/off)
+- Saving raw ECG data as hexadecimal string in .txt file
