@@ -32,3 +32,4 @@ Establishes communcation between the PC and an ECG development board from Corsci
 - Seperating responses
 - Decoding payload 
 - Saving raw ECG data in .txt file
+- Configuring the ECG module
