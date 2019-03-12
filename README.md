@@ -1,5 +1,5 @@
 # ECG-App
-Establishes communcation between the PC and an ECG developement board from Corscience. The user has the the ability to change certain settings about what data the device will be sending and the ECG data will be displayed as a continuous graph in the app.
+Establishes communcation between the PC and an ECG development board from Corscience. The user has the the ability to change certain settings about what data the device will be sending and the ECG data will be displayed as a continuous graph in the app.
 
 # Features
 - Transmitting and receiving commands to and from the ECG device (Corscience EMB1)
@@ -24,4 +24,11 @@ Establishes communcation between the PC and an ECG developement board from Corsc
 - Error Handling
 - GUI
 - Moving average filter integrated (on/off , window length = 30 at 1kHz and 15 at 500 Hz) (on/off)
-- Saving raw ECG data as hexadecimal string in .txt file
+
+# Implemented functions for:
+- Encoding commands to be sent over USB connection
+- Octet Stuffing (replacing a start or endflag within the message with the appropriate substitude, to prevent early termination of a response)
+- Calculating checksum using CRC16-CCITT
+- Seperating responses
+- Decoding payload 
+- Saving raw ECG data in .txt file
