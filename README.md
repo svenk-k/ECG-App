@@ -23,7 +23,7 @@ Establishes communcation between the PC and an ECG development board from Corsci
   - runtime
 - Error Handling
 - GUI
-- Moving average filter integrated (on/off , window length = 30 at 1kHz and 15 at 500 Hz) (on/off)
+- Moving average filter integrated (window length = 30 at 1kHz and 15 at 500 Hz, on/off)
 
 # Implemented functions for:
 - Encoding commands to be sent over USB connection
