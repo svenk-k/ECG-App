@@ -1,6 +1,8 @@
 # ECG-App
 Establishes communcation between the PC and an ECG development board from Corscience. The user has the the ability to change certain settings about what data the device will be sending and the ECG data will be displayed as a continuous graph in the app.
 
+Created with Appdesigner in Matlab 2018a and cannot be used with older Appdesigner versions due to Appdesigners own incompatibility with its older versions.
+
 # Features
 - Transmitting and receiving commands to and from the ECG device (Corscience EMB1)
 - Establishing connection between PC and EMB
